@@ -52,5 +52,7 @@ This project compares **the forecasting performance of ARIMA and Prophet** model
 | **Prophet**       | changepoint_prior_scale = 0.01 | 499.76 | 424.41 | 6.46     |
 
 ## 📊 Forecasting Results
+### Stock Price Trend
 ![Stock Price Trend](visuals/stock_price_trend.png)
-![Actual vs Predicted (ARIMA)](visuals/actual_vs_predicted_arima_prophet.png)
+### Actual vs Predicted ARIMA and Prophet
+![Actual vs Predicted ARIMA and Prophet](visuals/actual_vs_predicted_arima_prophet.png)
