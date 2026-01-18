@@ -54,5 +54,7 @@ This project compares **the forecasting performance of ARIMA and Prophet** model
 ## 📊 Forecasting Results
 ### Stock Price Trend
 ![Stock Price Trend](visuals/stock_price_trend.png)
+### ACF PACF Plots
+![ACF PACF Plots](visuals/acf_pacf_plots.png)
 ### Actual vs Predicted ARIMA and Prophet
 ![Actual vs Predicted ARIMA and Prophet](visuals/actual_vs_predicted_arima_prophet.png)
