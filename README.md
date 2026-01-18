@@ -44,4 +44,13 @@ This project compares **the forecasting performance of ARIMA and Prophet** model
 - Mean Absolute Error (MAE) is significantly lower for Prophet (424.41) than ARIMA (701.36), indicating closer predictions to actual prices.
 - MAPE improves from 9.98% (ARIMA) to 6.46% (Prophet), confirming higher relative accuracy in percentage terms.
 - Results indicate Prophet is better suited for non-stationary and trend-driven financial time series than traditional ARIMA models.
+
+## 📊 Model Performance Comparison (ARIMA vs Prophet)
+| Model             | Parameters                     | RMSE   | MAE    | MAPE (%) |
+| ----------------- | ------------------------------ | ------ | ------ | -------- |
+| **ARIMA (1,1,0)** | p, d, q = (1, 1, 0)            | 907.49 | 701.36 | 9.98     |
+| **Prophet**       | changepoint_prior_scale = 0.01 | 499.76 | 424.41 | 6.46     |
+
+## 📊 Forecasting Results
+![Stock Price Trend](visuals/stock_price_trend.png)
 ![Actual vs Predicted (ARIMA)](visuals/actual_vs_predicted_arima_prophet.png)
